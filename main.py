@@ -11,7 +11,9 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 @bot.event
 async def on_ready():
     print(f"Bot pornit ca {bot.user}")
+
 @bot.command()
 async def ping(ctx):
     await ctx.send("Pong!")
-  bot.run(os.getenv("TOKEN"))
+
+bot.run(os.getenv("TOKEN"))
