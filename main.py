@@ -315,7 +315,7 @@ async def deleteprofil_error(ctx, error):
         await ctx.send("Nu ai permisiune pentru această comandă.")
 
 
-bot.run(os.getenv("TOKEN"))import discord
+bot.run(os.getenv("TOKEN"))
 from discord.ext import commands
 import os
 import sqlite3
